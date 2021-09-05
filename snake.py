@@ -1,15 +1,13 @@
 import random
 
+lenghth_snake = (int(input("enter your number for lenghth snake :")))
 
-length = int(input("type the snake length :"))
+for i in range( lenghth_snake):
 
-for i in range(length):
-
-    if i % 2 == 0 :
-        print ("!",end ='')
-    else :
-        print("#",end ='')    
-
+    if i % 2 == 0:
+        print ("*" , end ='')
+    else  :
+         print ("!" ,end='')   
 
 
 
